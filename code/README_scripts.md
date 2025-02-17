@@ -15,3 +15,8 @@ A final script, `data_concat_all.R`, harmonizes these datasets completely into a
 
 #### Analysis scripts 
 
+`random_forest_abundance.R` contains the code used for generating random forest models for abundance, from the data 
+
+
+#### Figure generating scripts
+`transect_maps.R` generates bathymetric plots with the transect locations in it. 
