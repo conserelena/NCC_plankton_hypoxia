@@ -12,6 +12,8 @@ Within the code subdirectory, there is a separate md document that describes all
 
 **data**  
 
+Data are currently embargoed through December 2026. Once data are available, I will update this README with links to the repositories hosting the data. 
+
 The data subdirectory contains two directories:
 * raw: contains all the ISIIS imagery data used in analyses.
 
@@ -30,4 +32,4 @@ Contains temporary files and exploratory figures.
 
 **results** 
 
-Contains model outputs 
+Contains model outputs from random forest modeling methods. 
