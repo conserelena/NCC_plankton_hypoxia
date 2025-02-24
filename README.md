@@ -5,6 +5,7 @@ This repository contains the code for the analyses for the first chapter of my (
 
 ### Repository Content 
 Statistical analyses were performed in R *v4.4.1*  
+See `README_packages.md` for all required packages and versions utilized in this analysis.
 
 **code** 
 
