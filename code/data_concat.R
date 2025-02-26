@@ -141,4 +141,7 @@ for (i in 1:length(all_ISIIS_data)){
 
 all_ISIIS_data <- bind_rows(all_ISIIS_data)
 
+all_ISIIS_data$Transect_ID[all_ISIIS_data$Transect_ID == "NH_inshore"] <- "NH"
+all_ISIIS_data$Transect_ID[all_ISIIS_data$Transect_ID == "GH_inshore"] <- "GH"
+
 remove(fi, i, all_data)

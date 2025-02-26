@@ -19,4 +19,7 @@ A final script, `data_concat_all.R`, harmonizes these datasets completely into a
 
 
 #### Figure generating scripts
-`transect_maps.R` generates bathymetric plots with the transect locations in it. 
+`transect_maps.R` generates bathymetric plots with the transect locations in it. The final figure is placed in the `tmp` folder. 
+
+#### Data exploration
+`data_exploration.R` has a few data exploratory and figure generating scripts. For example, determining the percent occurance for each class, and plotting the distributions of bin abundance. Outputs of this script is in the `./tmp/data_exploration` subdirectory. 
