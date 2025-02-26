@@ -144,4 +144,7 @@ all_ISIIS_data <- bind_rows(all_ISIIS_data)
 all_ISIIS_data$Transect_ID[all_ISIIS_data$Transect_ID == "NH_inshore"] <- "NH"
 all_ISIIS_data$Transect_ID[all_ISIIS_data$Transect_ID == "GH_inshore"] <- "GH"
 
+all_ISIIS_data <- all_ISIIS_data %>%
+  mutate(Year = year(time_Pacific))
+
 remove(fi, i, all_data)

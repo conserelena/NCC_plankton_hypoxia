@@ -17,3 +17,5 @@ Packages required + versions:
 * `mgcv 1.9.1`
 * `data.table 1.15.4`
 * `reshape2 1.4.4`
+* `suncalc 0.5.1`
+

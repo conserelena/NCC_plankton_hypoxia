@@ -23,3 +23,8 @@ A final script, `data_concat_all.R`, harmonizes these datasets completely into a
 
 #### Data exploration
 `data_exploration.R` has a few data exploratory and figure generating scripts. For example, determining the percent occurance for each class, and plotting the distributions of bin abundance. Outputs of this script is in the `./tmp/data_exploration` subdirectory. 
+
+#### Functions
+`time_of_day.R` contains a function takes time and returns "day", "night", or "crepuscular". Times are considered to be crepuscular based on solar deposition of 6° below horizon ("civil twilight"). Solar deposition for consideration of dawn and dusk times can also be changed. 
+
+
